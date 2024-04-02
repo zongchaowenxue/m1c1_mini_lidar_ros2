@@ -10,6 +10,7 @@
 # 克隆项目
 git clone https://github.com/zongchaowenxue/m1c1_mini_lidar_ros2.git
 # 编译
+cd ..
 colcon build --packages-select m1c1_mini_ros2
 # 运行
 ros2 launch m1c1_mini_ros2 launch.py
